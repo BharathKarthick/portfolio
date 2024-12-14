@@ -395,6 +395,7 @@ section{
     position: fixed;
     color: #fff;
     left: 1250px;
+    bottom: 20px;
     background: #4070f4;
     padding: 7px 12px;;
     font-size: 18px;
