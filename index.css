@@ -186,7 +186,7 @@ section{
 .wrap{
     display: flex;
     position: relative;
-    top: 160px;
+    top: 260px;
     width: 1200px;
     height: 150px;
     border-radius: 15px;
@@ -301,14 +301,14 @@ section{
     
 }
 .exp{
-    animation: bounce 1s infinite;
+    animation: bounce 2s infinite;
   }
   @keyframes bounce {
     0% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-25px);
+      transform: translateY(-20px);
     }
 }
 .exp h1{
