@@ -38,6 +38,9 @@ body{
     position: relative;
     top: 15px;  
 }
+#M{
+    display: none;
+}
 a{
     padding: 10px;
     text-decoration: none;
@@ -181,6 +184,29 @@ section{
     top: 80px;
 }
 .wrap{
+    display: flex;
+    position: relative;
+    top: 160px;
+    width: 1200px;
+    height: 150px;
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    
+}
+.sk-mobile{
+    display: none;
+    height: 650px;
+    width: 100%;
+    background-color:  #F0F8FF;
+}
+.sk1-mobile h1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.wrap-mobile{
+    display:none;
     display: flex;
     position: relative;
     top: 160px;
@@ -388,6 +414,12 @@ section{
         top: 7px; 
         
     }
+    #D{
+        display: none;
+    }
+    #M{
+        display: block;
+    }
     a{
         padding: 2px; 
     }
@@ -470,17 +502,18 @@ section{
         top: 100px;
         left: 20px;
     }
-    .sk{
+    .sk-mobile{
+        display:block;
         height: 350px;
         width: 100%;
         display: flex;
         background-color:  #F0F8FF;
     }
-    .sk1 h1{
+    .sk1-mobile h1{
         font-size: 20px;
         top: 40px;
     }
-    .wrap{
+    .wrap-mobile{
         
         top: 80px;
         width: 350px;
@@ -493,6 +526,10 @@ section{
         height: 80px;
         
     }
+    .sk {
+        display: none;
+    }
+
     .expi{
         height: 700px;
         width: 100%; 
