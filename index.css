@@ -394,7 +394,7 @@ section{
 
 @media screen and (min-width:375px) and (max-width:700px){
     .home{
-        height: 550px;
+        height: 750px;
         width: 100%;
     }
     .one{
@@ -444,7 +444,7 @@ section{
         font-size: 20px;
     }
     .content{
-        top: 170px;
+        top: 220px;
         line-height: 50px;
         right: 5px;
     }
