@@ -396,7 +396,6 @@ section{
     .home{
         height: 700px;
         width: 100%;
-        background-size: cover;
     }
     .one{
         height: 50px;
@@ -621,6 +620,7 @@ section{
       }
     
 }
+
 
 
 
