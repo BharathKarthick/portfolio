@@ -301,7 +301,7 @@ section{
     
 }
 .exp{
-    animation: bounce 1.5s infinite;
+    animation: bounce 2s infinite;
   }
   @keyframes bounce {
     0% {
