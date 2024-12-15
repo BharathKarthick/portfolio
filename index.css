@@ -7,11 +7,20 @@ body{
     font-family: "Parkinsans", sans-serif;
     font-optical-sizing: auto;
 }
+.he {
+    background: linear-gradient(90deg,#00ffff,white,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
 .home{
-    height: 630px;
+    height: 680px;
     width: 100%;
     background-image: url("home\ wall.webp");
     background-size: cover;
+    background-position: center;
+    position: relative;
     display: flex;
 
 }
@@ -98,11 +107,18 @@ section{
 }
 .content h1{
     font-size: 65px;
-    color: #F0F8FF;
+    background: linear-gradient(90deg,white,#00ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content h2{
     font-size:45px ;
     color: #4070f4;
+    background: linear-gradient(#ff00c3,white);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content span{
     font-size:20px ;
@@ -127,10 +143,12 @@ section{
 }
 
 .about{
-    height: 600px;
+    height: 650px;
     display: grid;
     grid-template-columns: 400px 800px ;
-    grid-template-rows: 84vh;  
+    grid-template-rows: 84vh; 
+    background-image: url("ab1.png");
+    background-size: cover;
 }
 .a1 img{
 
@@ -152,6 +170,7 @@ section{
     position: relative;
     top: 170px;
     font-size: 18px;
+    color: #fff;
 }
 .a2 .name{
     font-size:23px;
@@ -177,7 +196,8 @@ section{
     height: 650px;
     width: 100%;
     display: flex;
-    background-color:  black;
+    background-image: url("skill.png");
+    background-size: cover;
 }
 .sk1 h1{
     text-align: center;
@@ -201,7 +221,8 @@ section{
     display: none;
     height: 650px;
     width: 100%;
-    background-color:  #F0F8FF;
+    background-image: url("skill.png");
+    background-size: cover;
 }
 .sk1-mobile h1{
     text-align: center;
@@ -288,12 +309,13 @@ section{
     height: 650px;
     width: 100%; 
     display:flex; 
-    background-color:white;
+    background-image: url("ep.png");
+    background-size: cover;
 }
 .exp{
     height: 450px;
     width: 80%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.315);
     border-radius: 20px;
     border: none; 
     position: relative;
@@ -341,7 +363,8 @@ section{
     height: 700px;
     width: 100%;
     justify-content: center;
-    background-color: black;
+    background-image: url("project.png");
+    background-size: cover;
 }
 .pro1 h1{
     text-align: center;
@@ -352,7 +375,7 @@ section{
     margin-top: 100px;
     height: 550px;
     width: 80%;
-    background-color:white;
+    background-color:rgba(0, 0, 0, 0.623);
     border-radius: 20px;
 }
 .pro2{
@@ -363,9 +386,10 @@ section{
     animation: bgAnimation 15s linear infinite;
 }
 .pro1 p{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
     padding: 40px;
+    color: #fff;
     text-align: justify;
 }
 @keyframes bgAnimation{
@@ -387,23 +411,22 @@ section{
     display: flex;
     height: 570px;
     width: 100%;
+    background-image: url("contact\ back.jpg");
+    background-size: cover;
 }
 .contact input{
     margin-bottom: 35px;
 }
 .cta{
     height: 450px;
-    width: 400px;
+    width: 450px;
     position: relative;
     top: 52px;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: rgba(0, 0, 0, 0.295);
     border-radius: 15px;
     z-index: 4;
     display: inline-block;
       
-}
-.cta:hover{
-    box-shadow: 5px 7px 9px dodgerblue;
 }
 .cta h1{
     text-align: center;
@@ -416,15 +439,15 @@ section{
     width: 300px;
     position: relative;
     top: 40px;
-    left: 45px;
+    left: 72px;
     border-radius: 10px;
     border: none;
+    font-family: "Parkinsans", sans-serif;
     
 }
 .in1:hover{
     color: black;
-    font-size: 15px;
-    font-family: "Parkinsans", sans-serif;
+    font-size: 15px; 
 }
 ::placeholder{
     font-size: 15px;
@@ -437,23 +460,25 @@ section{
     border-radius: 10px;
     border: none;
     position: relative;
-    top: 70px;
-    left: 141px;
+    top: 110px;
+    left:-145px;
     font-size: 17px;
     background-color: white;
     color: black;
     font-family: "Parkinsans", sans-serif;
 }
 .bt:hover{
-    background-color: dodgerblue;
+    background-color: #ff00c3cc;
     color: white;  
     box-shadow: 5px 7px 9px white; 
 }
 @media screen and (min-width:375px) and (max-width:768px){
     .home{
-        height: 700px;
+        height: 100vh;
         width: 100%;
+        background-image: url("home\ wall.webp");
         background-size: cover;
+        background-position: center;
     }
     .one{
         height: 50px;
