@@ -10,7 +10,7 @@ body{
 .home{
     height: 680px;
     width: 100%;
-    background-image: url("back.jpg");
+    background-image: url("home\ wall.webp");
     background-size: cover;
     display: flex;
 
@@ -20,7 +20,7 @@ body{
     width: 100%;
     display: flex;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 5;
 }
 .logo{
@@ -44,10 +44,10 @@ body{
 a{
     padding: 10px;
     text-decoration: none;
-    color: royalblue; 
+    color: white; 
 }
 .one a:hover{
-    color: orangered;
+    color: dodgerblue;
     font-size:22px ;
 }
 .media{
@@ -156,6 +156,8 @@ section{
 }
 .a2 .name{
     font-size:23px;
+    margin-bottom: 10px;
+    color: orangered;
 }
 .down{
     background-color: dodgerblue;
@@ -176,12 +178,13 @@ section{
     height: 650px;
     width: 100%;
     display: flex;
-    background-color:  #F0F8FF;
+    background-color:  black;
 }
 .sk1 h1{
     text-align: center;
     position: relative;
     top: 80px;
+    color: white;
 }
 .wrap{
     display: flex;
@@ -192,6 +195,7 @@ section{
     border-radius: 15px;
     border: none;
     overflow: hidden;
+    
     
 }
 .sk-mobile{
@@ -229,47 +233,47 @@ section{
     
 }
 .card1{
-    background-image: url("https://th.bing.com/th/id/OIP.iw1ChHHQ1j4WvhjbDOAA3QHaHa?rs=1&pid=ImgDetMain");
+    background-image: url("logo/html.png");
     background-size: cover;
 }
 .card2{
-    background-image: url("https://ih1.redbubble.net/image.361913632.3593/st,small,507x507-pad,600x600,f8f8f8.u8.jpg");
+    background-image: url("logo/css.png");
     background-size: cover;
 }
 .card3{
-    background-image: url("https://ih1.redbubble.net/image.199904207.6522/st,small,507x507-pad,600x600,f8f8f8.jpg");
+    background-image: url("logo/js.png");
     background-size: cover;
 }
 .card4{
-    background-image: url("https://th.bing.com/th/id/OIP.0ZVQ6yfG7kPJHBQ_HW9OWgHaHa?w=207&h=207&c=7&r=0&o=5&pid=1.7");
+    background-image: url("logo/nodejs.png");
     background-size: cover;
 }
 .card5{
-    background-image: url("https://ih1.redbubble.net/image.1662296386.0401/st,small,507x507-pad,600x600,f8f8f8.u2.jpg");
+    background-image: url("logo/reactjs.png");
     background-size: cover;
 }
 .card6{
-    background-image: url("https://th.bing.com/th/id/OIP.RzOX1J6YgbrYAjKuw1lwAwHaHa?rs=1&pid=ImgDetMain");
+    background-image: url("logo/figma.png");
     background-size: cover;
 }
 .card7{
-    background-image: url("https://th.bing.com/th/id/OIP.vD2UkTEIxjwCENUAUdbSFgHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7");
+    background-image: url("logo/bootstrap.png");
     background-size: cover;
 }
 .card8{
-    background-image: url("https://th.bing.com/th/id/OIP.we2ps7zAjLSe5AmIX5enaQHaHa?rs=1&pid=ImgDetMain");
+    background-image: url("logo/wp.png");
     background-size: cover;
 }
 .card9{
-    background-image: url("https://i.pinimg.com/736x/2f/21/59/2f21599e008a9a54c638cbf2a9d0e8a1.jpg");
+    background-image: url("logo/git.png");
     background-size: cover;
 }
 .card10{
-    background-image: url("https://ih1.redbubble.net/image.1279800942.6040/st,small,507x507-pad,600x600,f8f8f8.u2.jpg");
+    background-image: url("logo/github.png");
     background-size: cover;
 }
 .card11{
-    background-image: url("https://ih1.redbubble.net/image.1912789095.6394/st,small,507x507-pad,600x600,f8f8f8.jpg");
+    background-image: url("logo/jira.png");
     background-size: cover;
 }
 .card{
@@ -285,13 +289,13 @@ section{
     height: 650px;
     width: 100%; 
     display:flex; 
-    background-color: black;
+    background-color:white;
 }
 .exp{
     height: 450px;
     width: 80%;
-    background-color: #F0F8FF;
-    border-radius: 10px;
+    background-color: black;
+    border-radius: 20px;
     border: none; 
     position: relative;
     top: 80px;
@@ -314,6 +318,10 @@ section{
 .exp h1{
     position: relative;
     text-align: center;
+    color: white;
+}
+.exp p{
+    color: white;
 }
 .exp .p1{
     font-size: 30px;
@@ -329,6 +337,52 @@ section{
 .exp .p4{
     font-size: 20px;
 }
+.project{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+.pro1 h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.pro1{
+    margin-top: 100px;
+    height: 550px;
+    width: 80%;
+    background-color:white;
+    border-radius: 20px;
+}
+.pro2{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    background-size: cover;
+    animation: bgAnimation 15s linear infinite;
+}
+.pro1 p{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 40px;
+    text-align: justify;
+}
+@keyframes bgAnimation{
+    25%{
+        background-image: url("project\ 1.png");
+    }
+    50%{
+        background-image: url("project\ 2.png");
+    }
+    75%{
+        background-image: url("project\ 3.png");
+    }
+    100%{
+        background-image: url("project\ 4.png");
+    }
+}
 
 .contact{
     display: flex;
@@ -343,19 +397,20 @@ section{
     width: 400px;
     position: relative;
     top: 52px;
-    background-color: rgba(127, 255, 212, 0.39);
+    background-color: rgba(0, 0, 0, 0.884);
     border-radius: 15px;
     z-index: 4;
     display: inline-block;
       
 }
 .cta:hover{
-    box-shadow: 5px 7px 9px orange;
+    box-shadow: 5px 7px 9px dodgerblue;
 }
 .cta h1{
     text-align: center;
     position: relative;
     top: 20px;
+    color: white;
 }
 .in1{
     height: 30px;
@@ -368,8 +423,9 @@ section{
     
 }
 .in1:hover{
-    background-color: black;
-    color: #F0F8FF;
+    color: black;
+    font-size: 15px;
+    font-family: "Parkinsans", sans-serif;
 }
 ::placeholder{
     font-size: 15px;
@@ -385,17 +441,20 @@ section{
     top: 70px;
     left: 141px;
     font-size: 17px;
-    background-color: rgba(0, 0, 255, 0.432);
-    color: aliceblue;
+    background-color: white;
+    color: black;
+    font-family: "Parkinsans", sans-serif;
 }
 .bt:hover{
-    background-color: rgba(255, 255, 0, 0.644);
-    color: black;
+    background-color: dodgerblue;
+    color: white;  
+    box-shadow: 5px 7px 9px white; 
 }
-@media screen and (min-width:375px) and (max-width:700px){
+@media screen and (min-width:375px) and (max-width:768px){
     .home{
         height: 700px;
         width: 100%;
+        background-size: cover;
     }
     .one{
         height: 50px;
@@ -557,6 +616,29 @@ section{
     }
     .exp .p4{
         font-size: 15px;
+    }
+    .project{
+        height: 750px;
+    }
+    .pro1{
+        margin-top: 100px;
+        height: 600px;
+        width: 90%;
+    }
+    .pro2{
+        width: 300px;
+        height: 150px;
+        margin-top: 50px;
+        background-size: cover;
+    }
+    .pro1 .h1{
+        font-size: 20px;
+    }
+    .pro1 p{
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
     }
     .contact{
         display: flex;

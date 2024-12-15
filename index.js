@@ -19,7 +19,6 @@ let test_data =[
 ]
 
 let data = 0
-let name = document.querySelector(".name")
 let image = document.querySelector(".image")
 let text_content = document.querySelector(".content")
 
