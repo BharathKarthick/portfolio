@@ -115,7 +115,7 @@ section{
 .content h2{
     font-size:45px ;
     color: #4070f4;
-    background: linear-gradient(#ff00c3,white);
+    background: linear-gradient(dodgerblue,white);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
