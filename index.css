@@ -115,7 +115,7 @@ section{
 .content h2{
     font-size:45px ;
     color: #4070f4;
-    background: linear-gradient(dodgerblue,white);
+    background: linear-gradient(white,#ff00c3);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -310,6 +310,7 @@ section{
     width: 100%; 
     display:flex; 
     background-image: url("ep.png");
+    background-position: center;
     background-size: cover;
 }
 .exp{
@@ -617,7 +618,7 @@ section{
 
     .expi{
         height: 700px;
-        width: 100%; 
+        width: 100%;
     }
     .exp{
         height: 550px;
