@@ -64,7 +64,7 @@ a{
     top: 25px;
 }
 .media .link{
-    color: rgb(118, 165, 206);
+    color: #00ffff;
     font-size: 22px;
 }
 .media{
@@ -79,7 +79,7 @@ a{
     }
 }
 .media .git{
-    color: rgba(255, 255, 0, 0.644);
+    color: black;
     font-size: 22px;
 }
 .media a:hover{
@@ -114,7 +114,6 @@ section{
 }
 .content h2{
     font-size:45px ;
-    color: #4070f4;
     background: linear-gradient(white,#ff00c3);
     -webkit-background-clip: text;
     background-clip: text;
@@ -178,8 +177,8 @@ section{
     color: orangered;
 }
 .down{
-    background-color: dodgerblue;
-    color: white;
+    background-color: #00ffff;
+    color: black;
     font-size: 1rem;
     text-decoration: none;
     border-radius: 5px;
@@ -188,8 +187,8 @@ section{
     
 }
 .down:hover{
-    background-color: royalblue;
-    color: black;
+    background-color: white;
+    color: orangered;
     font-size: 17px;
 }
 .sk{
