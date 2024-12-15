@@ -556,7 +556,7 @@ section{
         top: -60px;
     }
     .about{
-        height: 750px;
+        height: 790px;
         display: grid;
         grid-template-columns:1fr;
         grid-template-rows: 35vh;  
