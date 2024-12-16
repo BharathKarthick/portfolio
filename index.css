@@ -422,6 +422,7 @@ section{
     width: 100%;
     background-image: url("contact\ back.jpg");
     background-size: cover;
+    background-position: center;
 }
 .contact input{
     margin-bottom: 35px;
@@ -730,6 +731,10 @@ footer{
         display: flex;
         height: 450px;
         width: 100%;
+        background-image: url("contact\ back.jpg");
+        background-size: cover;
+        background-position: center;
+
     }
     .cta{
         height: 280px;
