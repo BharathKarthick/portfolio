@@ -68,6 +68,17 @@ a{
     color: #00ffff;
     font-size: 22px;
 }
+.media .git{
+    color: black;
+    font-size: 22px;
+}
+.media .what{
+    font-size: 22px;
+    color: greenyellow;
+}
+.media .what{
+    color: rgb(149, 245, 6);
+}
 .media{
     animation: bounce 2s infinite;
   }
@@ -78,10 +89,6 @@ a{
     50% {
       transform: translateY(-20px);
     }
-}
-.media .git{
-    color: black;
-    font-size: 22px;
 }
 .media a:hover{
     font-size: 28px;
