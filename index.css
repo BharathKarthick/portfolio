@@ -2,6 +2,7 @@
 *{
     padding: 0 auto;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 body{
     font-family: "Parkinsans", sans-serif;
