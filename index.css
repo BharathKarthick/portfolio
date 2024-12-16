@@ -515,6 +515,10 @@ footer{
 .f3 .icon:hover{
     font-size: 25px;
 }
+.f4{
+    font-size: 20px;
+    color: white;
+}
 .ic1:hover{
     color: #4070f4;
 }
@@ -777,18 +781,21 @@ footer{
     .f1{
         padding-top: 30px;
         padding-bottom: 10px;
+        display: block;
     }
     .f2{
         font-size: 12px;
+        text-align: center;
     }
     .f3{
         text-align: center;
     }
+    .f4{
+        font-size: 12px;
+    }
     .f3 .icon{
         color: #ff00c3;
         font-size: 10px;
-        position: relative;
-        bottom: 6px;
     }
     .f3 .icon:hover{
         font-size: 15px;
