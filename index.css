@@ -57,7 +57,7 @@ a{
     color: white; 
 }
 .one a:hover{
-    color: dodgerblue;
+    color: #00ffff;
     font-size:22px ;
 }
 .media{
