@@ -499,6 +499,7 @@ footer{
 }
 .f2{
     font-size: 20px;
+    color: #22e6e6;
 }
 .f3{
     text-align: center;
@@ -762,7 +763,7 @@ footer{
         padding-bottom: 10px;
     }
     .f2{
-        font-size: 10px;
+        font-size: 12px;
     }
     .f3{
         text-align: center;
@@ -771,7 +772,7 @@ footer{
         color: #ff00c3;
         font-size: 10px;
         position: relative;
-        bottom: 7px;
+        bottom: 6px;
     }
     .f3 .icon:hover{
         font-size: 15px;
