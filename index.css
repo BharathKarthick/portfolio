@@ -481,6 +481,46 @@ section{
     color: white;  
     box-shadow: 5px 7px 9px white; 
 }
+footer{
+    
+    position: relative;
+    align-items: center;
+    padding-top: 30px;
+    width:100%;
+    background-color: #121062;
+}
+.f0{
+    padding: 0 90px 0 90px ;
+}
+.f1{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.f2{
+    font-size: 20px;
+}
+.f3{
+    text-align: center;
+}
+.f3 .icon{
+    color: #ff00c3;
+    font-size: 20px;
+}
+.f3 .icon:hover{
+    font-size: 25px;
+}
+.ic1:hover{
+    color: #4070f4;
+}
+.ic2:hover{
+    color: rgb(238, 234, 11);
+}
+.ic3:hover{
+    color: rgb(23, 245, 71);
+}
+
+
 
 @media screen and (min-width:375px) and (max-width:768px){
     .home{
@@ -714,17 +754,30 @@ section{
     .contact input{
         margin-bottom: 20px;
     }
-    .scroll-button a{
-        position: fixed;
-        color: #fff;
-        left: 1050px;
-        background: #4070f4;
-        padding: 7px 12px;;
-        font-size: 18px;
-        border-radius: 6px;
-        box-shadow: rgba(0, 0, 0, 0.15);
-        z-index: 10;
-      }
+    .f0{
+        padding: 0 50px 0 50px ;
+    }
+    .f1{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .f2{
+        font-size: 10px;
+    }
+    .f3{
+        text-align: center;
+    }
+    .f3 .icon{
+        color: #ff00c3;
+        font-size: 10px;
+        position: relative;
+        bottom: 7px;
+    }
+    .f3 .icon:hover{
+        font-size: 15px;
+    }
+   
+
     
 }
 
