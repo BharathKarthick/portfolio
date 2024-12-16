@@ -74,10 +74,10 @@ a{
 }
 .media .what{
     font-size: 22px;
-    color: greenyellow;
+    color: rgb(47, 255, 82);
 }
 .media .what{
-    color: rgb(149, 245, 6);
+    color: rgb(23, 245, 71);
 }
 .media{
     animation: bounce 2s infinite;
