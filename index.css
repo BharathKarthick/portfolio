@@ -499,7 +499,10 @@ footer{
 }
 .f2{
     font-size: 20px;
-    color: #22e6e6;
+    background: linear-gradient(90deg,#00ffff,white,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .f3{
     text-align: center;
@@ -698,6 +701,10 @@ footer{
     }
     .project{
         height: 750px;
+        width: 100%;
+        background-image: url("project.png");
+        background-size: cover;
+        background-position: center;
     }
     .pro1{
         margin-top: 100px;
