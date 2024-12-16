@@ -781,7 +781,15 @@ footer{
     .f3 .icon:hover{
         font-size: 15px;
     }
-   
+    .ic1:hover{
+        color: #4070f4;
+    }
+    .ic2:hover{
+        color: rgb(238, 234, 11);
+    }
+    .ic3:hover{
+        color: rgb(23, 245, 71);
+    }
 
     
 }
