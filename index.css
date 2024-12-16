@@ -573,6 +573,10 @@ footer{
     .media .git{
         font-size: 15px;
     }
+    .media .what{
+        font-size: 17px;
+    }
+    
     .media a:hover{
         font-size: 20px;
     }
