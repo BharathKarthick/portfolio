@@ -440,7 +440,7 @@ section{
         color: white;
         text-align: center;
        position: relative;
-       top: 70px;
+       top: 80px;
         
     }
     .pa1{
@@ -449,6 +449,8 @@ section{
         padding: 20px;
         color: white;
         text-align: justify;
+        position: relative;
+        top: 30px;
     }
     .cont{
         color: white;
