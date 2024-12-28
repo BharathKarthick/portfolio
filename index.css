@@ -62,55 +62,7 @@ a{
     font-size:22px ;
 }
 /* mobile view */
-.menu-icon {
-    font-size: 30px;
-    color: orangered;
-    padding: 10px;
-    cursor: pointer;
-    position: fixed;
-    right: 0px;
-    z-index: 1000;
-}
 
-.side-menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    right: 0;
-    background-color: #333;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.side-menu ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.side-menu ul li {
-    padding: 20px 40px 20px 40px;
-    text-align: center;
-    
-}
-
-.side-menu ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-    font-size: 15px;
-}
-
-.side-menu ul li a:hover {
-    background-color: #575757;
-    font-size: 18px;
-    color: orangered;
-}
-
-.show-menu {
-    width: 180px; /* Width of the side menu */
-}
 .menu-icon{
     display: none;
 }
@@ -696,11 +648,58 @@ footer{
         left: -140px;
     }
     /* mobile view */
-    .menu-icon{
-        display: block;
-    }
     .ul1{
         display: none;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        color: orangered;
+        padding: 10px;
+        cursor: pointer;
+        position: fixed;
+        right: 0px;
+        z-index: 1000;
+    }
+    
+    .side-menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        right: 0;
+        background-color: #333;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .side-menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .side-menu ul li {
+        padding: 20px 40px 20px 40px;
+        text-align: center;
+        
+    }
+    
+    .side-menu ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+        font-size: 15px;
+    }
+    
+    .side-menu ul li a:hover {
+        background-color: #575757;
+        font-size: 18px;
+        color: orangered;
+    }
+    
+    .show-menu {
+        width: 180px; /* Width of the side menu */
     }
     /* .D{
         display: none;
