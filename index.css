@@ -62,12 +62,6 @@ a{
     font-size:22px ;
 }
 /* mobile view */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .menu-icon {
     font-size: 30px;
     color: orangered;
@@ -686,26 +680,7 @@ footer{
 .ic3:hover{
     color: rgb(23, 245, 71);
 }
-/* styles.css */
-nav.one1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-ul.menu {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-
-ul.menu li {
-    margin: 0 10px;
-}
-
-.burger {
-    display: none;
-}
 @media screen and (min-width:375px) and (max-width:768px){
     .home{
         height: 100vh;
@@ -714,21 +689,11 @@ ul.menu li {
         background-size: cover;
         background-position: center;
     }
-    .one{
-        height: 50px;
-        width: 100%;
-        z-index: 5;
-        position: fixed;
-    }
     .logo{
         height: 70px;
         width: 85px;
         bottom: 7px;
         left: -140px;
-    }
-    .one ul li{
-        font-size: 9px;
-        top: 7px;   
     }
     /* mobile view */
     .menu-icon{
