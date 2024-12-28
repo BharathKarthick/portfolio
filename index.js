@@ -6,16 +6,16 @@ function toggleMenu() {
 // Front-End Mentor Challenges
 let test_data =[
     {
-        image:"profile \card.jpg",
+        image:"profilecard.jpg",
         text_content:"Profile-Card-Component"
     },
     {
-        image:"product \card.jpg",
+        image:"productcard.jpg",
         text_content:"Product-preview-card-component"
     },
     {
         
-        image:"3-column \preview.jpg",
+        image:"3columnpreview.jpg",
         text_content:"3-column-preview-card-component"
     }
 ]
