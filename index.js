@@ -1,38 +1,102 @@
+function toggleMenu() {
+    const menu = document.querySelector('.side-menu');
+    menu.classList.toggle('show-menu');
+}
+
+// Front-End Mentor Challenges
 let test_data =[
     {
-        name:"Spider Man",
-        image:"https://th.bing.com/th/id/R.eb0668158bb91f5e37836a6c87ce1075?rik=S%2fy0hJeFrpj9pg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fspider-man-transparent-background%2fspider-man-transparent-background-11.png&ehk=Oi%2fOX%2bpv8w2GwurZHI3e6gXSNSaurXYfaFjCS5OuxEg%3d&risl=&pid=ImgRaw&r=0",
-        text_content:"Spider-Man is a superhero in American comic books published by Marvel Comics.Created by writer-editor Stan Lee and artist Steve Ditko."
+        image:"profile \card.jpg",
+        text_content:"Profile-Card-Component"
     },
     {
-        name:"Iron Man",  
-        image:"https://pngfre.com/wp-content/uploads/Iron-man-63.png",
-        text_content:"Iron Man is a superhero appearing in American comic books published by Marvel Comics. Co-created by writer and editor Stan Lee, developed by scripter Larry Lieber"
+        image:"product \card.jpg",
+        text_content:"Product-preview-card-component"
     },
     {
-        name:"Hulk",
-        image:"https://i.ebayimg.com/images/g/DCcAAOSwuAVcfDyd/s-l1200.webp",
-        text_content:"The Hulk is a superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby. "
+        
+        image:"3-column \preview.jpg",
+        text_content:"3-column-preview-card-component"
+    }
+]
+let data0 = 0
+let image = document.querySelector(".image")
+let text_content = document.querySelector(".cont")
+function testimonial(){
+    let current =test_data[data0]
+    image.src = current.image
+    text_content.innerHTML = current.text_content
+    data0++
+    
+    if(data0===test_data.length){
+        data0 = 0
+    }
+}
+setInterval(()=>{testimonial()},2000);
+testimonial()
+
+// internship project
+let test =[
+    {
+        image1:"port.png",
+        content:"Portfolio Website",
+        desc:"A personal portfolio has been created to showcase skills and projects." 
+    },
+    {
+        image1:"intern.png",
+        content:"Handicap Website",
+        desc:"Developed an accessible website for individuals with disabilities." 
+    },
+]
+
+let data1 = 0
+let image1 = document.querySelector(".image1")
+let content = document.querySelector(".conte1")
+let desc = document.querySelector(".inter")
+
+function testi(){
+    let current =test[data1]
+    desc.innerHTML = current.desc
+    image1.src = current.image1
+    content.innerHTML = current.content
+    data1++
+    
+    if(data1===test.length){
+        data1 = 0
+    }
+}
+
+setInterval(()=>{testi()},2000);
+testi()
+
+
+let test1 =[
+    {
+        image2:"project\ 1.png",
+    },
+    {
+        image2:"project\ 2.png",
+    },
+    {
+        
+        image2:"project\ 3.png",
     }
         
 
 ]
 
-let data = 0
-let image = document.querySelector(".image")
-let text_content = document.querySelector(".content")
+let data2 = 0
+let image2 = document.querySelector(".image2")
 
-function testimonial(){
-    let current =test_data[data]
-    name.innerHTML = current.name
-    image.src = current.image
-    text_content.innerHTML = current.text_content
-    data++
+function testimo(){
+    let current =test1[data2]
+    image2.src = current.image2
+    data2++
     
-    if(data===test_data.length){
-        data = 0
+    if(data2===test1.length){
+        data2 = 0
     }
 }
 
-setInterval(()=>{testimonial()},2000);
-testimonial()
+setInterval(()=>{testimo()},2000);
+testimo()

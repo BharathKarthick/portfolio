@@ -48,9 +48,10 @@ body{
     position: relative;
     top: 15px;  
 }
-.M{
+
+/* .M{
     display: none;
-}
+} */
 a{
     padding: 10px;
     text-decoration: none;
@@ -60,6 +61,66 @@ a{
     color: #00ffff;
     font-size:22px ;
 }
+/* mobile view */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-icon {
+    font-size: 30px;
+    color: orangered;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    right: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.side-menu ul li a:hover {
+    background-color: #575757;
+    font-size: 18px;
+    color: orangered;
+}
+
+.show-menu {
+    width: 180px; /* Width of the side menu */
+}
+.menu-icon{
+    display: none;
+}
+
 .media{
     position: relative;
     top: 25px;
@@ -140,7 +201,7 @@ section{
     color: #F0F8FF;
     position: relative;
     font-size: 18px;
-    right: 260px;
+    right: 240px;
     top: 20px;
 }
 .content .btt:hover{
@@ -369,54 +430,149 @@ section{
 .exp .p4{
     font-size: 20px;
 }
-.project{
+#con{
     display: flex;
-    height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+ }
+.con1{
     width: 100%;
-    justify-content: center;
-    background-image: url("project.png");
-    background-size: cover;
-}
-.pro1 h1{
+    height: 100px;
     text-align: center;
     position: relative;
-    top: 30px;
-}
-.pro1{
-    margin-top: 100px;
-    height: 550px;
-    width: 80%;
-    background-color:rgba(0, 0, 0, 0.623);
-    border-radius: 20px;
-}
-.pro2{
-    width: 500px;
-    height: 250px;
-    margin-top: 50px;
-    background-size: cover;
-    animation: bgAnimation 15s linear infinite;
-}
-.pro1 p{
-    margin-top: 10px;
-    font-size: 20px;
-    padding: 40px;
-    color: #fff;
-    text-align: justify;
-}
-@keyframes bgAnimation{
-    25%{
-        background-image: url("project\ 1.png");
+    top: 40px;
+ }
+ .dho{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 360px;
+    height: 500px;
+    margin: 20px;
     }
-    50%{
-        background-image: url("project\ 2.png");
+    .image{
+        width:310px;
+        height: 170px;
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 50px;
     }
-    75%{
-        background-image: url("project\ 3.png");
+    .image1{
+        width:310px;
+        height: 170px;
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 50px;
     }
-    100%{
-        background-image: url("project\ 4.png");
+    .image2{
+        width:310px;
+        height: 170px;
+        border-radius: 10px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+        
     }
-}
+    .hei{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 25px;
+    }
+    .pa0{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+       position: relative;
+       top: 70px;
+        
+    }
+    .pa1{
+        margin-top: 60px;
+        font-size: 15px;
+        padding: 20px;
+        color: white;
+        text-align: justify;
+    }
+    .cont{
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        top:60px;
+        padding: 10px;
+    }
+    .linkbu{
+        padding: 8px; 
+        border-radius: 15px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 13px;
+        background-color: orangered;
+        color: #fff;
+
+    }
+    .linkbu1{
+        position: relative;
+        top: 20px;
+    }
+    .linkbu2{
+        position: relative;
+        top: -20px;
+    }
+    .linkbu:hover{
+        background-color: #fff;
+        color: orangered;
+        transform: scale(1.1);
+    }
+    .linkbu1:hover{
+        background-color: #fff;
+        color: orangered;
+        transform: scale(1.1);
+    }
+    .linkbu2:hover{
+        background-color: #fff;
+        color: orangered;
+        transform: scale(1.1);
+    }
+    .front{
+        color: white;
+        text-align: center;
+        position: relative;
+        font-size: 15px;
+        top:50px;
+        padding: 20px;
+        
+    }
+    .conte1{
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        top:70px;
+    }
+    .inter{
+        position: relative;
+        top: 70px;
+        font-size: 15px;
+        color: white;
+        text-align: justify;
+        padding: 20px;
+    }
+    
+
 
 .contact{
     display: flex;
@@ -480,7 +636,7 @@ section{
     font-family: "Parkinsans", sans-serif;
 }
 .bt:hover{
-    background-color: #de3df0;
+    background-color: #ff00c3;
     color: white;  
     box-shadow: 5px 7px 9px white; 
 }
@@ -530,9 +686,26 @@ footer{
 .ic3:hover{
     color: rgb(23, 245, 71);
 }
+/* styles.css */
+nav.one1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+ul.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
 
+ul.menu li {
+    margin: 0 10px;
+}
 
+.burger {
+    display: none;
+}
 @media screen and (min-width:375px) and (max-width:768px){
     .home{
         height: 100vh;
@@ -548,21 +721,28 @@ footer{
         position: fixed;
     }
     .logo{
-        height: 60px;
-        width: 75px;
+        height: 70px;
+        width: 85px;
         bottom: 7px;
-        left: -10px;
+        left: -140px;
     }
     .one ul li{
         font-size: 9px;
         top: 7px;   
     }
-    .D{
+    /* mobile view */
+    .menu-icon{
+        display: block;
+    }
+    .ul1{
+        display: none;
+    }
+    /* .D{
         display: none;
     }
     .M{
         display: block;
-    }
+    } */
     a{
         padding: 2px; 
     }
@@ -616,7 +796,7 @@ footer{
         padding: 0.5rem  1.1rem 0.5rem 1.1rem;
         border-radius: 10px ;
         font-size: 8px;
-        right: 135px;
+        right: 115px;
         top: -60px;
     }
     .about{
@@ -706,32 +886,17 @@ footer{
     .exp .p4{
         font-size: 15px;
     }
-    .project{
-        height: 750px;
-        width: 100%;
-        background-image: url("project.png");
-        background-size: cover;
-        background-position: center;
-    }
-    .pro1{
-        margin-top: 100px;
-        height: 600px;
-        width: 90%;
-    }
-    .pro2{
-        width: 300px;
+    .image{
+        width:280px;
         height: 150px;
-        margin-top: 50px;
-        background-size: cover;
     }
-    .pro1 .h1{
-        font-size: 20px;
+    .image1{
+        width:280px;
+        height: 150px;
     }
-    .pro1 p{
-        margin-top: 20px;
-        font-size: 15px;
-        padding: 20px;
-        text-align: justify;
+    .image2{
+        width:280px;
+        height: 150px;
     }
     .contact{
         display: flex;
@@ -812,7 +977,7 @@ footer{
         color: rgb(23, 245, 71);
     }
 
-    
+  
 }
 
 

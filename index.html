@@ -16,18 +16,29 @@
         <nav class="one">
             <img src="logo.png" class="logo" alt="" >
 
-            <ul>
+            <ul class="ul1">
                 <li><a href="#home">Home</i></a></li>
                 <li><a href="#about">About</i></a></li>
                 <li><a href="#skills" class="D">Skills</a></li>
-                <li><a href="#skillsm" class="M">Skills</a></li>
+                <!-- <li><a href="#skillsm" class="M">Skills</a></li> -->
                 <li><a href="#exp">Experience</a></li>
-                <li><a href="#project">Project</a></li>
+                <li><a href="#con">Project</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
-            <!-- <div class="burger">
-                <i class="fa-solid fa-bars"></i>
-            </div> -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                ☰
+            </div>
+            <nav class="side-menu">
+                <ul>
+                    <li><a href="#home">Home</i></a></li>
+                    <li><a href="#about">About</i></a></li>
+                    <!-- <li><a href="#skills" class="D">Skills</a></li> -->
+                    <li><a href="#skillsm" class="M">Skills</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#con">Project</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
         </nav> 
         <section>
         <div class="content">
@@ -107,18 +118,37 @@
                 <p class="p4"><b>Version Control & Tools:</b>Git, GitHub, Jira.</p>
             </div>
         </div>
-        <div class="project" id="project">
-            
-            <div class="pro1">
-                <h1 class="he">Project</h1>
-                <div class="pro2"></div>
-                <p>The ATM withdrawal process involves secure authentication, authorization, and dispensing.
-                    The ATM Face ID System using CNN enhances ATM security.
-                    The system authenticates users by detecting and recognizing their faces, ensuring only authorized access.
-                    For unauthorized access, the system sends a verification link to the account holder's mobile to prevent fraud. 
-                </p>
-                </div>
-        </div>
+        <div id="con">
+            <div class="con1"> <h1 class="he">Project</h1></div>
+             <div class="dho">
+                 <h1 class="hei">Front-End Mentor Challenges</h1>  
+             <img class=" image" src="" alt="" >
+             <p class="cont"></p>
+             <p class="front">Completed various challenges using HTML, CSS, and JavaScript.</p>
+             <a href="https://www.frontendmentor.io/home/my-challenges?tab=completed"><button class="linkbu">Visit Page..</button></a>
+         </div>
+ 
+             <div class="dho">
+                 <h1 class="hei">Internship Projects</h1> 
+             <img  class=" image1" src=""  alt="" >
+                 <p class="conte1"></p>
+                 <p class="inter"></p>
+                 <a href="https://bharathkarthick.github.io/portfolio/"><button class="linkbu linkbu1">Visit Portfolio Page..</button></a>
+                 <a href="https://github.com/BharathKarthick/class-programs/tree/main/handycap"><button class="linkbu linkbu2">Visit Handicap Page..</button></a> 
+             </div>
+ 
+             <div class="dho">
+                 <h1 class="hei">College Projects</h1>
+                 <img class=" image2" src=""  alt="" >
+                     <p class="pa0">Smart ATM</p>
+                     <p class="pa1">
+                         The ATM Face ID System using CNN enhances security by authenticating users via facial recognition, 
+                         ensuring only authorized access. For unauthorized access attempts, 
+                         it sends a verification link to the account holder's mobile to prevent fraud.
+                     </p> 
+                 </div>
+             </div>
+        
     <div class="contact" id="contact">
         <div class="cta">
             <form action="">
@@ -145,8 +175,9 @@
         </div>
             
         </footer>
+       
 </body>
-<script src=""></script>
+<script src="/index.js"></script>
 </html>
 
 
