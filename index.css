@@ -46,7 +46,8 @@ body{
     font-size: 20px;
     width: auto; 
     position: relative;
-    top: 15px;  
+    top: 15px;
+    right: -100px;  
 }
 
 /* .M{
@@ -64,6 +65,9 @@ a{
 /* mobile view */
 
 .menu-icon{
+    display: none;
+}
+.side-menu{
     display: none;
 }
 
