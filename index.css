@@ -669,6 +669,7 @@ footer{
     }
     
     .side-menu {
+        display: block;
         height: 100%;
         width: 0;
         position: fixed;
