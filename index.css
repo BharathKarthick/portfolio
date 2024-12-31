@@ -9,6 +9,7 @@ body{
     font-optical-sizing: auto;
     background-color: #121062;
 }
+/* all heading */
 .he {
     background: linear-gradient(90deg,#00ffff,white,#ff00c3);
     -webkit-background-clip: text;
@@ -16,6 +17,7 @@ body{
     -webkit-text-fill-color: transparent;
     font-size: 30px;
 }
+/* home page styling */
 .home{
     height: 680px;
     width: 100%;
@@ -49,10 +51,6 @@ body{
     top: 15px;
     right: -100px;  
 }
-
-/* .M{
-    display: none;
-} */
 a{
     padding: 10px;
     text-decoration: none;
@@ -62,8 +60,6 @@ a{
     color: #00ffff;
     font-size:22px ;
 }
-/* mobile view */
-
 .menu-icon{
     display: none;
 }
@@ -110,6 +106,8 @@ a{
 .media .git:hover{
     color: rgb(238, 234, 11);
 }
+
+/* home page content style */
 section{
     display: flex;
 }
@@ -159,6 +157,8 @@ section{
     border: none;
     color: rgba(255, 68, 0, 0.945);
 }
+
+/* about section styling */
 
 .about{
     height: 650px;
@@ -213,6 +213,8 @@ section{
     color: orangered;
     font-size: 17px;
 }
+
+/* skill section styling */
 .sk{
     height: 650px;
     width: 100%;
@@ -326,6 +328,8 @@ section{
 .card:hover{
     flex: 0.8;
 }
+
+/* experience section styling */
 .expi{
     height: 650px;
     width: 100%; 
@@ -380,6 +384,8 @@ section{
 .exp .p4{
     font-size: 20px;
 }
+
+/* project section styling */
 #con{
     display: flex;
     flex-wrap: wrap;
@@ -525,7 +531,7 @@ section{
     }
     
 
-
+/* contact section styling */
 .contact{
     display: flex;
     height: 570px;
@@ -542,7 +548,7 @@ section{
     width: 450px;
     position: relative;
     top: 52px;
-    background-color: rgba(134, 130, 130, 0.295);
+    background-color: rgba(236, 16, 218, 0.459);
     border-radius: 15px;
     z-index: 4;
     display: inline-block;
@@ -588,10 +594,11 @@ section{
     font-family: "Parkinsans", sans-serif;
 }
 .bt:hover{
-    background-color: #ff00c3;
+    background-color: rgba(65, 105, 225, 0.836);
     color: white;  
     box-shadow: 5px 7px 9px white; 
 }
+/* footer styling */
 footer{
     
     position: relative;
@@ -603,6 +610,7 @@ footer{
 .f0{
     padding: 0 90px 0 90px ;
 }
+
 .f1{
     display: flex;
     padding-top: 50px;
@@ -639,7 +647,10 @@ footer{
     color: rgb(23, 245, 71);
 }
 
+/* responsive design styling */
 @media screen and (min-width:375px) and (max-width:768px){
+    
+    /* home page styling */
     .home{
         height: 100vh;
         width: 100%;
@@ -709,12 +720,6 @@ footer{
     .show-menu {
         width: 250px; /* Width of the side menu */
     }
-    /* .D{
-        display: none;
-    }
-    .M{
-        display: block;
-    } */
     a{
         padding: 2px; 
     }
@@ -742,6 +747,7 @@ footer{
     .media a:hover{
         font-size: 20px;
     }
+    /* home page content styling */
     .content{
         top: 220px;
         line-height: 50px;
@@ -771,6 +777,8 @@ footer{
         right: 135px;
         top: -60px;
     }
+
+    /* about section styling */
     .about{
         height: 810px;
         display: grid;
@@ -804,6 +812,8 @@ footer{
         border-radius: 5px;
    
     }
+
+    /* skill section styling */
     .sk-mobile{
         display:block;
         height: 450px;
@@ -832,6 +842,7 @@ footer{
         display: none;
     }
 
+    /* experience section styling */
     .expi{
         height: 700px;
         width: 100%;
@@ -858,6 +869,8 @@ footer{
     .exp .p4{
         font-size: 15px;
     }
+
+    /* project section styling */
     .image{
         width:280px;
         height: 150px;
@@ -870,6 +883,8 @@ footer{
         width:280px;
         height: 150px;
     }
+
+    /* contact section styling  */
     .contact{
         display: flex;
         height: 450px;
@@ -898,11 +913,17 @@ footer{
         left: 52px;
         border-radius: 5px;
     }
+    .in1:hover{
+        color: black;
+        font-size: 10px; 
+    }
     ::placeholder{
         font-size: 8px;
         word-spacing: 2px;
         letter-spacing: 1px;
         bottom: 3px;
+        position: relative;
+        bottom: 2px;
     }
     .bt{
         padding: 0.5rem  0.9rem 0.5rem 0.9rem;
@@ -914,6 +935,8 @@ footer{
     .contact input{
         margin-bottom: 20px;
     }
+
+    /* footer styling */
     .f0{
         padding: 0 50px 0 50px ;
     }
