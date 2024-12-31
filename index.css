@@ -678,6 +678,7 @@ footer{
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
+        
     }
     
     .side-menu ul {
@@ -687,7 +688,7 @@ footer{
     
     .side-menu ul li {
         padding: 20px 40px 20px 40px;
-        text-align: center;
+        align-content: center;
         
     }
     
@@ -706,7 +707,7 @@ footer{
     }
     
     .show-menu {
-        width: 180px; /* Width of the side menu */
+        width: 250px; /* Width of the side menu */
     }
     /* .D{
         display: none;
