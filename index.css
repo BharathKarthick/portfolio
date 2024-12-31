@@ -648,7 +648,7 @@ footer{
 }
 
 /* responsive design styling */
-@media screen and (min-width:375px) and (max-width:768px){
+@media screen and (min-width:320px) and (max-width:768px){
     
     /* home page styling */
     .home{
@@ -662,7 +662,7 @@ footer{
         height: 70px;
         width: 85px;
         bottom: 7px;
-        left: -140px;
+        left: -120px;
     }
     /* mobile view */
     .ul1{
@@ -756,26 +756,40 @@ footer{
     .content p{
         font-size: 20px;
         color: #F0F8FF;
+        position: relative;
+        left: 10px;
     }
     .content h1{
         font-size: 34px;
         color: #F0F8FF;
+        position: relative;
+        left: 10px;
     }
     .content h2{
         font-size:24px ;
         color: #4070f4;
+        position: relative;
+        left: 10px;
     }
     .content span{
         font-size:18px ;
         color: #F0F8FF;
+        position: relative;
+        left: 10px;
+        bottom: 10px;
     }
     .content .btt{
         display:block;
         padding: 0.5rem  1.1rem 0.5rem 1.1rem;
         border-radius: 10px ;
         font-size: 8px;
-        right: 135px;
-        top: -60px;
+        right: 115px;
+        top: -90px;
+    }
+    .media{
+        position: relative;
+        top: -30px;
+        left: 10px;
     }
 
     /* about section styling */
@@ -828,13 +842,13 @@ footer{
     .wrap-mobile{
         
         top: 100px;
-        width: 350px;
+        width: 300px;
         height: 80px;
         
     }
     .wrap1{
         top: 135px;
-        width: 300px;
+        width: 250px;
         height: 80px;
         
     }
@@ -872,16 +886,19 @@ footer{
 
     /* project section styling */
     .image{
-        width:280px;
+        width:250px;
         height: 150px;
     }
     .image1{
-        width:280px;
+        width:250px;
         height: 150px;
     }
     .image2{
-        width:280px;
+        width:250px;
         height: 150px;
+    }
+    .hei{
+        font-size: 18px;
     }
 
     /* contact section styling  */
