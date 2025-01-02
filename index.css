@@ -139,14 +139,14 @@ a{
     text-align: center;
 }
 
-.side-menu ul li a {
+.side-menu ul li .aa1 {
     color: white;
     text-decoration: none;
     display: block;
     transition: 0.3s;
 }
 
-.side-menu ul li a:hover {
+.side-menu ul li .aa1:hover {
     background-color: #575757;
 }
 
@@ -732,15 +732,20 @@ footer{
             padding: 8px;
             position: relative;
             right: 0px; 
-            left: 12px;  
+            left: 15px;  
         }
     
-        .side-menu ul li a {
-            font-size: 18px;
+        .side-menu ul li .aa1 {
+            font-size: 15px;
         }
     
         .show-menu {
             width: 150px; 
+        }
+        .side-menu ul li .aa1:hover {
+            background-color: #575757;
+            transform: scale(1.2);
+            color: #00ffff;
         }
     .media{
         top: -5px;  
