@@ -107,6 +107,53 @@ a{
     color: rgb(238, 234, 11);
 }
 
+/* nav bar  mobile design */
+.menu-icon {
+    font-size: 30px;
+    color: orangered;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    right: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu ul li a:hover {
+    background-color: #575757;
+}
+
+.show-menu {
+    width: 250px; /* Width of the side menu */
+}
+
 /* home page content style */
 section{
     display: flex;
@@ -668,64 +715,33 @@ footer{
     .ul1{
         display: none;
     }
-    .menu-icon {
-        display: block;
-        font-size: 30px;
-        color: orangered;
-        padding: 10px;
-        cursor: pointer;
-        position: fixed;
-        right: 0px;
-        z-index: 1000;
-    }
     
-    .side-menu {
-        display: block;
-        height: 100%;
-        width: 0;
-        position: fixed;
-        right: 0;
-        background-color: #333;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-        
-    }
+        .menu-icon {
+            display: block;
+            font-size: 25px; 
+            padding: 8px; 
+        }
     
-    .side-menu ul {
-        list-style-type: none;
-        padding: 0;
-    }
+        .side-menu {
+            display: block;
+            width: 0; 
+            padding-top: 50px; 
+        }
     
-    .side-menu ul li {
-        padding: 20px 40px 20px 40px;
-        align-content: center;
-        
-    }
+        .side-menu ul li {
+            padding: 8px;
+            position: relative;
+            right: 0px; 
+            left: 12px;  
+        }
     
-    .side-menu ul li a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        transition: 0.3s;
-        font-size: 15px;
-    }
+        .side-menu ul li a {
+            font-size: 18px;
+        }
     
-    .side-menu ul li a:hover {
-        background-color: #575757;
-        font-size: 18px;
-        color: orangered;
-    }
-    
-    .show-menu {
-        width: 250px; /* Width of the side menu */
-    }
-    a{
-        padding: 2px; 
-    }
-    .one a:hover{
-        font-size:7px ;
-    }
+        .show-menu {
+            width: 150px; 
+        }
     .media{
         top: -5px;  
     }
