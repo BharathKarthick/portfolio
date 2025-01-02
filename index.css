@@ -715,10 +715,7 @@ footer{
     .ul1{
         display: none;
     }
-    a{
-        padding: 2px;
-         
-    }
+   
         .menu-icon {
             display: block;
             font-size: 25px; 
@@ -760,12 +757,15 @@ footer{
     }
     .media .link{
         font-size: 15px;
+        padding: 2px;
     }
     .media .git{
         font-size: 15px;
+        padding: 2px;
     }
     .media .what{
         font-size: 17px;
+        padding: 2px;
     }
     
     .media a:hover{
@@ -999,6 +999,7 @@ footer{
     .f3 .icon{
         color: #ff00c3;
         font-size: 10px;
+        padding: 2px;
     }
     .f3 .icon:hover{
         font-size: 15px;
