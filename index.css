@@ -709,7 +709,7 @@ footer{
         height: 70px;
         width: 85px;
         bottom: 7px;
-        left: -120px;
+        left: -140px;
     }
     /* mobile view */
     .ul1{
@@ -1017,7 +1017,7 @@ footer{
   
 }
 
-/* @media screen and (max-width:1024px){
+@media screen and (min-width:1024px){
     .logo{
         left: -70px;
     }
@@ -1039,7 +1039,7 @@ footer{
         left: 2px;
           
     } 
-} */
+}
 
 
 
