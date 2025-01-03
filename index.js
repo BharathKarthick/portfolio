@@ -40,12 +40,16 @@ let test =[
     {
         image1:"port.png",
         content:"Portfolio Website",
-        desc:"A personal portfolio has been created to showcase skills and projects." 
+        desc:"A personal portfolio has been created to showcase skills and projects.",
+        link:"index.html",
+        name:"Visit Portfolio Page.." 
     },
     {
         image1:"intern.png",
         content:"Handicap Website",
-        desc:"Developed an accessible website for individuals with disabilities." 
+        desc:"Developed an accessible website for individuals with disabilities." ,
+        link:"https://github.com/BharathKarthick/class-programs/tree/main/handycap",
+        name:"Visit Handicap Page.."
     },
 ]
 
@@ -53,12 +57,17 @@ let data1 = 0
 let image1 = document.querySelector(".image1")
 let content = document.querySelector(".conte1")
 let desc = document.querySelector(".inter")
+let link = document.querySelector(".lin")
+let name = document.querySelector(".linkbu1")
 
 function testi(){
+    
     let current =test[data1]
     desc.innerHTML = current.desc
     image1.src = current.image1
     content.innerHTML = current.content
+    link.href = current.link
+    name.innerHTML =current.name
     data1++
     
     if(data1===test.length){

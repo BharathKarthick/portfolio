@@ -531,11 +531,7 @@ section{
     }
     .linkbu1{
         position: relative;
-        top: 20px;
-    }
-    .linkbu2{
-        position: relative;
-        top: -20px;
+        top: 30px;
     }
     .linkbu:hover{
         background-color: #fff;
