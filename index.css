@@ -1017,6 +1017,29 @@ footer{
   
 }
 
+/* @media screen and (max-width:1024px){
+    .logo{
+        left: -70px;
+    }
+    .one ul li{
+        right: -60px;  
+    }
+    .content{
+        right: 160px;
+    }
+    .wrap{
+        width: 950px;
+        height: 130px;    
+    } 
+    .a1 img{
+
+        height: 40%;
+        width: 100%;
+        top: 255px;
+        left: 2px;
+          
+    } 
+} */
 
 
 
