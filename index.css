@@ -773,7 +773,7 @@ footer{
     }
     /* home page content styling */
     .content{
-        top: 220px;
+        top: 270px;
         line-height: 50px;
         right: 5px;
     }
@@ -1015,6 +1015,11 @@ footer{
     }
 
   
+}
+@media screen and (max-width:768px){
+    .logo{
+        left: -250px;
+    }
 }
 
 @media screen and (min-width:1024px){
