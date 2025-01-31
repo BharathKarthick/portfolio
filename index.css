@@ -614,10 +614,10 @@ section{
     font-family: "Parkinsans", sans-serif;
     
 }
-.in1:hover{
+/* .in1:hover{
     color: black;
     font-size: 15px; 
-}
+} */
 ::placeholder{
     font-size: 15px;
     text-align: center;

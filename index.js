@@ -108,4 +108,55 @@ function testimo(){
 }
 
 setInterval(()=>{testimo()},2000);
-testimo()
+testimo() 
+
+
+
+// contact form error message
+
+function validateSubmit() {
+    // Remove previous error messages
+    let errorMessages = document.getElementsByClassName('error');
+    while (errorMessages.length > 0) {
+        errorMessages[0].remove();
+    }
+
+    let isValid = true; 
+    let username = document.getElementById("name");
+    let email = document.getElementById("mail");
+    let number = document.getElementById("number");
+
+    // Validate username
+    if (username.value.trim() === "") {
+        displayError(username, "Username is required");
+        isValid = false;
+    }
+
+    // Validate email
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (email.value.trim() === "") {
+        displayError(email, "Email is required");
+        isValid = false;
+    } else if (!emailPattern.test(email.value)) {
+        displayError(email, "Please enter a valid email address");
+        isValid = false;
+    }
+
+    // Validate phone number (must be exactly 10 digits)
+    const phoneNumberPattern = /^\d{10}$/;
+    if (number.value.trim() === "") {
+        displayError(number, "Phone Number is required");
+        isValid = false;
+    } else if (!phoneNumberPattern.test(number.value)) {
+        displayError(number, "Number must be exactly 10 digits");
+        isValid = false;
+    }
+    return isValid; 
+
+    // Display error message
+    function displayError(field, message) {
+        field.value = "";
+        field.placeholder = message;
+        field.style.borderColor = "red";
+    }
+}
