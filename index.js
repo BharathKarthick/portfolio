@@ -6,16 +6,16 @@ function toggleMenu() {
 // Front-End Mentor Challenges
 let test_data =[
     {
-        image:"profilecard.jpg",
+        image:"./images/profilecard.jpg",
         text_content:"Profile-Card-Component"
     },
     {
-        image:"productcard.jpg",
+        image:"./images/productcard.jpg",
         text_content:"Product-preview-card-component"
     },
     {
         
-        image:"3columnpreview.jpg",
+        image:"./images/3columnpreview.jpg",
         text_content:"3-column-preview-card-component"
     }
 ]
@@ -38,14 +38,14 @@ testimonial()
 // internship project
 let test =[
     {
-        image1:"port.png",
+        image1:"./images/port.png",
         content:"Portfolio Website",
         desc:"A personal portfolio has been created to showcase skills and projects.",
         link:"index.html",
         name:"Visit Portfolio Page.." 
     },
     {
-        image1:"intern.png",
+        image1:"./images/intern.png",
         content:"Handicap Website",
         desc:"Developed an accessible website for individuals with disabilities." ,
         link:"https://github.com/BharathKarthick/class-programs/tree/main/handycap",
@@ -81,14 +81,14 @@ testi()
 
 let test1 =[
     {
-        image2:"project\ 1.png",
+        image2:"./images/project\ 1.png",
     },
     {
-        image2:"project\ 2.png",
+        image2:"./images/project\ 2.png",
     },
     {
         
-        image2:"project\ 3.png",
+        image2:"./images/project\ 3.png",
     }
         
 
