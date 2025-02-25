@@ -945,15 +945,15 @@ footer{
     }
     .in1{
         height: 15px;
-        width: 160px;
+        width: 190px;
         top: 29px;
-        left: 52px;
+        left: 38px;
         border-radius: 5px;
     }
-    .in1:hover{
+    /* .in1:hover{
         color: black;
         font-size: 10px; 
-    }
+    } */
     ::placeholder{
         font-size: 8px;
         word-spacing: 2px;
@@ -965,8 +965,8 @@ footer{
     .bt{
         padding: 0.5rem  0.9rem 0.5rem 0.9rem;
         border-radius: 7px;
-        top: 70px;
-        left: -65px;
+        top: 60px;
+        left: 92px;
         font-size: 9px;
     }
     .contact input{
